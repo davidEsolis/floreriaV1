@@ -1,0 +1,11 @@
+
+#emp {
+    margin-top: 50px;
+    position: relative;
+}
+
+#emp .nada {
+    position: absolute;  /*se posisiona con relacion a #banner (linea 1)*/
+    /*para que el banner siempre este en medio del contenenedor*/
+    top: 10%;
+    left: 50%;

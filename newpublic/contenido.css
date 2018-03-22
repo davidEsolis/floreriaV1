@@ -1,0 +1,93 @@
+
+
+.contenedor{
+    width: 98%; /*se dejea un pequeño espacion para que todos los elementos se alinien*/
+    margin: auto;
+}
+
+/* contenido basico */
+
+#contBasic .contenedor {
+    display: flex; /*para que las imagenes esten en una sola linea*/
+    justify-content: center;
+    flex-wrap: wrap; /*los elementos que no caben se bajen uno debajo de otro*/
+}
+
+#contBasic article {
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+    border-radius: 3%;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.452);
+    color: rgba(40, 60, 241, 0.925);
+
+}
+
+#contBasic .contenedor img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    border: 1px solid rgba(53, 53, 51, 0.315);
+   min-width: 200px;
+   min-height: 200px;
+}
+
+/* contenido medio */
+
+#contMed .contenedor {
+    display: flex; /*para que las imagenes esten en una sola linea*/
+    justify-content: center;
+    flex-wrap: wrap; /*los elementos que no caben se bajen uno debajo de otro*/
+}
+
+#contMed article {
+    font-family: 'Lobster', cursive;
+    margin: auto;
+    border-radius: 3%;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(24, 0, 112, 0.486);
+    color: rgba(153, 255, 241, 0.658);
+    border: 1px solid rgba(55, 0, 255, 0.103);
+   
+
+}
+
+
+#contMedImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+    border: 1px solid rgba(253, 253, 253, 0.315);
+    min-width: 200px;
+    min-height: 200px;
+    z-index: 0; 
+}
+/* contenido Alto */
+
+#contAlt .contenedor {
+    display: flex; /*para que las imagenes esten en una sola linea*/
+    justify-content: center;
+    flex-wrap: wrap; /*los elementos que no caben se bajen uno debajo de otro*/
+}
+
+#contAlt article {
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+    border-radius: 3%;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.452);
+    color: rgba(40, 60, 241, 0.925);
+
+}
+
+#contAlt .contenedor img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    border: 1px solid rgba(53, 53, 51, 0.315);
+   max-width: 200px;
+   max-height: 200px;
+}

@@ -1,0 +1,133 @@
+#info{
+    background: rgba(0, 127, 211, 0.623);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.info-pet img{
+   
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid #ff3;
+    
+}
+
+.info-pet2 {
+  margin-top: 25px;
+    position: relative;
+    text-align: left;
+  
+}
+
+.info-pet3 {
+    margin-top: 25px;
+    position: relative;
+    text-align: left;
+}
+
+.info-pet4 {
+    margin-top: 25px;
+    position: relative;
+    text-align: left;
+}
+
+
+
+@media (min-width:480px){
+    .info-pet img{
+        /*esto hace que las cuatro imagenes queden a dos columnas*/
+        width: 40%;
+        left: 2%;
+    }
+    .info-pet2{
+        /*esto hace que las cuatro imagenes queden a dos columnas*/
+        width: 48%;
+        left: 12%;
+    }
+    .info-pet3{
+        /*esto hace que las cuatro imagenes queden a dos columnas*/
+        width: 40%;
+        left: 2%;
+    }
+    .info-pet4{
+        /*esto hace que las cuatro imagenes queden a dos columnas*/
+        width: 40%;
+        left: 12%;
+    }
+}
+
+@media (min-width:768px){
+    .info-pet{
+        /*esto hace que las cuatro imagenes queden a dos columnas*/
+        width: 48%;
+        left: 12%;
+    }
+    
+    .info-pet2{
+      right: 10%;
+        
+    }
+    .info-pet3{
+       
+        left: 12%;
+        
+    }
+    
+    .info-pet4{
+        /*esto hace que las cuatro imagenes queden a dos columnas*/
+        width: 48%;
+        left: 20%;
+    }
+}
+
+@media (min-width:1024px){
+    
+    .info-pet{
+        /*esto hace que las cuatro imagenes queden a dos columnas*/
+        width: 48%;
+        left: 20%;
+    }
+    
+    .info-pet2{
+      right: 20%;
+        
+    }
+    .info-pet3{
+       
+        left: 20%;
+        
+    }
+    
+    .info-pet4{
+        /*esto hace que las cuatro imagenes queden a dos columnas*/
+        width: 48%;
+        left: 20%;
+    }
+@media (min-width:1280px){
+    .info-pet2 {
+        left: 9%;
+    }
+    .info-pet{
+        /*esto hace que las cuatro imagenes queden a dos columnas
+        width: auto;
+        left: 1%; */
+    }
+    
+    .info-pet3 {
+        position: absolute;
+        left: 55%;
+    }
+    
+    .info-pet4 {
+        position: absolute;
+        left: 74%;
+    }
+}

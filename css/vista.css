@@ -1,0 +1,160 @@
+.font1{
+    font-family: 'Dancing Script', cursive;
+        margin: 3px;
+        font-size: 30px;
+        margin-left: 5px;
+    
+}
+.menu_font{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body{
+    background-color: rgb(255, 234, 234);
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 3vh;
+}
+
+
+.galeria{
+   font-family: 'Lobster', cursive;
+   font-size: 50px;
+   color: rgba(255, 0, 0, 0.63); }
+.localiz{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+/*Se crean estilos reset para todo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    width: 98%; /*se dejea un pequeño espacion para que todos los elementos se alinien*/
+    margin: auto;
+}
+
+h1{
+    float: left;
+}
+/*para limpiar los floats (se le aplica solo al contenedor del header)*/       
+header .contenedor{
+    display: table;
+}
+
+/*estilos para todos los section de la pagina*/
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#Bienvenidos {
+    text-align: center;
+}
+
+/*estilos para footer*/
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px
+}
+
+.sociales a{
+    color: #333;
+    text-decoration: none;
+}
+
+
+.social {
+	position: fixed;
+	left: 0;
+	top: 350px;
+	z-index: 2000;
+} 
+
+.social ul {
+	list-style: none;
+}
+
+.social ul li a {
+display: inline-block;
+color: #fff;
+background: #000;
+padding: 10px 15px;
+text-decoration: none;
+-webkit-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook-alt {background:#3b5998;}
+.social ul li .icon-envelope-o {background:#00E200;}
+
+.social ul li a:hover {
+	padding: 10px 30px;
+	background:#000;
+}
+/*estilos para tableta*/
+@media (min-width:250px){
+    .font1{
+         font-size: 22px;
+    }
+ 
+ }
+ @media (min-width:300px){
+    .font1{
+         font-size: 25px;
+    }
+ 
+ }
+ @media (min-width:375px){
+    .font1{
+         font-size: 33px;
+    }
+ 
+ }
+@media (min-width:768px){
+    .font1{
+        font-size: 38px;
+   }
+    .sociales{
+        width: auto;
+        
+    }
+    
+    footer .contenedor{
+        justify-content: space-between;
+    }
+}
+
+/*estilos para escritorio*/
+@media (min-width:1024px){
+    .contenedor {
+       width: 100%;
+   }
+   
+}
+@media (min-width:1440px){
+    .font1{
+        font-size: 45px;
+   }
+   
+}

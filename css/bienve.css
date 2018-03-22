@@ -1,0 +1,35 @@
+#Bienvenidos .contenedor {
+   
+    display: flex; /*para que las imagenes esten en una sola linea*/
+    justify-content: center;
+    flex-wrap: wrap; /*los elementos que no caben se bajen uno debajo de otro*/
+}
+
+#Bienvenidos article {
+    margin: 15px;
+    
+}
+
+#Bienvenidos .contenedor img {
+    width: 100%;
+    max-width: 280px;
+}
+
+/*estilos para tableta*/
+@media (min-width:768px){
+    
+    #Bienvenidos .contenedor img {
+         width: 100%;
+        max-width: 700px;
+    }
+    
+}
+
+/*estilos para escritorio*/
+@media (min-width:1024px){
+     .contenedor {
+        width: 1000px;
+    }
+    
+}
+

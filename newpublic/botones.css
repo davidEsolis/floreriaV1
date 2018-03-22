@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.botonVanguard{
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    background-color: rgba(34, 34, 34, 0.856);
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px; 
+    float: left;
+    text-decoration: none;
+    border-radius: 5%;
+    
+}
+
+.botonVanOk{
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    background-color: rgba(120, 211, 0, 0.644);
+    color: rgba(223, 19, 19, 0.808);
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 65px; 
+    float: left;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.botonVanCancel{
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    background-color: rgba(255, 1, 1, 0.76);
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 65px; 
+    float: left;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.botonVanEnv{
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    background-color: rgba(92, 6, 253, 0.582);
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px; 
+    float: left;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+/*botones para botones submit o button*/
+
+.botonSubOk{
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    background-color: rgba(120, 211, 0, 0.644);
+    color: rgba(223, 19, 19, 0.808);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px; 
+    float: left;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.botonSubCancel{
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    background-color: rgba(255, 1, 1, 0.76);
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px; 
+    float: left;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.botonSubEnv{
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    background-color: rgba(92, 6, 253, 0.582);
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px; 
+    float: left;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+/* cuando pasa sobre de ellos*/
+
+.botonVanguard:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.botonVanOk:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.botonVanEnv:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.botonVanCancel:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+/* para los submit y buttom*/
+.botonSubOk:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.botonSubEnv:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.botonSubCancel:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}

@@ -1,0 +1,43 @@
+/*estilos para footer*/
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px
+}
+
+.sociales a{
+    color: #333;
+    text-decoration: none;
+}
+
+/*estilos para tableta*/
+@media (min-width:768px){
+    .sociales{
+        width: auto;
+        
+    }
+    
+    footer .contenedor{
+        justify-content: space-between;
+    }
+}
+
+/*estilos para escritorio*/
+@media (min-width:1024px){
+     .contenedor {
+        width: 1000px;
+    }
+    
+}
